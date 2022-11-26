@@ -1,0 +1,42 @@
+footer .flex-item,
+footer .module-body {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer .footer-bottom {
+    background: #202020;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .footer-bottom ul li a {
+    line-height: 30px;
+    color: #fff;
+    position: relative;
+    margin-left: 23px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-title a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    margin-top: 200px;
+    bottom: 0;
+    width: 100%;
+}

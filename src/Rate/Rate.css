@@ -1,0 +1,68 @@
+.block {
+    position: relative;
+    padding: 20px 15px 20px 20px;
+    border: 1px solid #747474;
+    border-top: 1px solid #487922;
+    background: #ededed;
+    margin: 20px;
+}
+
+.block div {
+    margin-bottom: 20px;
+}
+
+.block .currency-in,
+.block .currency-out {
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-item {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.currency-name {
+    font-family: 'Oswald';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.select_rate {
+    text-decoration: underline;
+    outline: none;
+    border: none;
+    background: inherit;
+    font-size: 28px;
+    margin-left: 20px;
+    color: inherit;
+    transition: all 0.3s ease-out;
+}
